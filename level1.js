@@ -1,8 +1,6 @@
 /*
-Copyright (c) 2024 Carole Planque. All rights reserved.
-
-This work is licensed under the terms of the MIT license.  
-For a copy, see <https://opensource.org/licenses/MIT>.
+This work © 2024 by Carole Planque is licensed under Creative Commons Attribution 4.0 International. 
+For a copy, see <https://creativecommons.org/licenses/by/4.0/>.
 
 Author: Carole Planque (carole.planque@unige.ch)
 */
