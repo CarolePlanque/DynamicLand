@@ -77,15 +77,13 @@ function cloud_mask(image) {
   
   
   
-  exports.soil_moisture = function(dataset, region, sampling_area, min_sm, max_sm) {
+  exports.soil_moisture = function(dataset, sampling_area, min_sm, max_sm) {
     
     /************************  
     * 0. CHECK PARAMETERS  
     ************************/
     if (min_sm === undefined) min_sm = 0;
     if (max_sm === undefined) max_sm = 1;
-    if (region === undefined) region = 'global';
-    print(region)
     print(max_sm)
     
     /************************  

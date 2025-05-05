@@ -42,11 +42,7 @@ print(training_area)
 var AOI = geometry
 
 // SET EPSG FOR EXPORT
-var epsg = 'EPSG:27700' // uk
-
-
-// CONTINENT
-var w_region = 'global'
+var epsg = 'EPSG:20135' // south sudan
 
 // SET DATE
 var start_date = "2022-01-01"
@@ -86,8 +82,7 @@ Map.addLayer(veg_product_01,{},'veg')
 * 3. RUN LEVEL 2  
 ************************/
 // Apply veg function
-var soil_moisture_01 = level2_func.soil_moisture(dataset_LC08_C02, w_region, 
-                                                  training_area);
+var soil_moisture_01 = level2_func.soil_moisture(dataset_LC08_C02, training_area);
 
 Map.addLayer(soil_moisture_01,{},'SM')
 
