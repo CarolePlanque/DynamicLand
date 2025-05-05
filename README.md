@@ -10,7 +10,7 @@ It was developed as part of the DynamicLand project, funded by the Swiss Nationa
 
 ### 2. Run:
 
-* Open the `main` script
+* In GEE, open the `main` script
   
 * Draw the area you would like to process, and name it 'geometry'
   
