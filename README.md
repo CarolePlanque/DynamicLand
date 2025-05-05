@@ -1,5 +1,5 @@
 This JavaScript code is designed to run on the Google Earth Engine platform. 
-It was developed as part of the DynamicLand project, funded by the Swiss National Science Foundation through the SPARK programme.
+It was developed as part of the DynamicLand project, funded by the Swiss National Science Foundation through the SPARK programme, and is licensed under Creative Commons Attribution 4.0 International (© 2024 by Carole Planque).
 
 ## How to use:
 
